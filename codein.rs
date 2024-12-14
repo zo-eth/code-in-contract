@@ -49,7 +49,7 @@ pub mod code_in {
     ) -> Result<()> {
         let _required_lamports = 3_000_000;
         let (expected_pda, _expected_bump) = Pubkey::find_program_address(
-            &[b"codein294739@@", ctx.accounts.user.key.as_ref()],
+            &[b"yourseedhere", ctx.accounts.user.key.as_ref()],
             ctx.program_id,
         );
         if ctx.accounts.message_account.key() != expected_pda {
