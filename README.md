@@ -83,7 +83,7 @@ Split compression and decode break make handling large text data efficient and s
 
 3. Cost Efficiency:
 
-Avoiding explicit storage and using state changes with split compression achieves up to 1000x cost reduction.
+Avoiding explicit storage and using state changes with split compression achieves up to 2000x cost reduction.
 
 4. Scalability:
 
